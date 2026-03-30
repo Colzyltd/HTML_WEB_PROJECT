@@ -1,0 +1,79 @@
+/* General styling starts */
+:root {
+    --primary: gray;
+    --secondary: rgb(148, 85, 3);
+    --text: #f7faf7;
+    --gradient: linear-gradient(90deg, blue, red);
+    
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: antiquewhite;
+}
+section {
+    width: 100%;
+    height: 100vh;
+}
+/* General styling ends */
+/* Page header - Navigation menu */
+.header {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.nav {
+    background-color: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    /* text-decoration: none; */
+    text-transform: uppercase;
+    color: var(--gradient);
+    padding: 14px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(168, 164, 164);
+    margin: 20px;
+    border-radius: 5px;
+}
+.nav-item {
+    list-style: none;
+    padding: 14px;
+    text-transform: capitalize;
+}
+.nav-link {
+    /* text-decoration: none; */
+    color: var(--secondary);
+}
+.nav-button {
+    color: var(--text);
+    text-transform: uppercase;
+    margin: 4px;
+    padding: 10px;
+    /* text-decoration: none; */
+}
+/* page header ends */
+/* hero section starts */
+.hero-section {
+    background-color: var(--primary);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* hero section ends */
