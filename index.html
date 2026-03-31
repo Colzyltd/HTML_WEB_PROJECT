@@ -18,48 +18,117 @@
         <!-- navigation menu -->
          <ul class="nav-menu">
             <li class="nav-item"><a class="nav-link" href="index.html">home</a></li>
-            <li class="nav-item"><a class="nav-link" href="about.html">about us</a></li>
-            <li class="nav-item"><a class="nav-link" href="services.html">services</a></li>
-            <li class="nav-item"><a class="nav-link" href="contact">contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="pages/about/about.html">about us</a></li>
+            <li class="nav-item"><a class="nav-link" href="pages/services/services.html">services</a></li>
+            <li class="nav-item"><a class="nav-link" href="pages/contact/contact.html">contact</a></li>
          </ul>
          <!-- login -->
-          <a href="" class="nav-button">login</a>
+          <a href="pages/login/login.html" class="nav-button">login</a>
       </nav>
     </header>
     <main>
         <section>
             <div class="hero-section">
-                <h1>Welcome! this website is under construction. try again later.</h1>
-                <img src="" alt="hero-image">    
+                <div class="content">
+                    <h1 class="hero-header">creating without limits</h1>
+                    <p class="description">
+                    Empowering innovation through cutting-edge technology, smart solutions, and seamless digital experiences to 
+                    drive the future of technology with innovation, creativity and precision.
+                    </p>
+                </div>
+                <img class="hero-img" src="assets/images/webdesign.jpg" alt="hero-image">    
             </div>
         </section>
         <section>
-            <div class="about">
-                <img src="" alt="about">
-                <h1>about the author</h1>
-                <p>give a description about your services here. make it atleast two paragraphs</p>
-                <button>more</button>
+            <div class="fashion">
+                <img class="fashion-img" src="assets/images/download.jpg" alt="about">
+                <div class="content">
+                    <h1 class="fashion-header">about the author</h1>
+                    <p class="fashion-description">give a description about your services here. make it atleast two paragraphs</p>
+                    <a class="fashion-link" href="#">learn more</a>
+                </div>
             </div>
         </section>
+
+        <!-- services -->
+         <section class="services-section">
+            <h1 class="serv-header">services</h1>
+            <div class="services-container">
+                <div class="services-item">
+                <img class="services-img" src="assets/images/services.jpg" alt="services">
+                <h1 class="services-header">wev design & development</h1>
+                <p class="services-description">i build wesjs;as faa;dja dads;jfkdakj;kjadfsk</p>
+            </div>
+            <div class="services-item">
+                <img class="services-img" src="assets/images/services.jpg" alt="services">
+                <h1 class="services-header">Fashion</h1>
+                <p class="services-description">i build wesjs;as faa;dja dads;jfkdakj;kjadfsk</p>
+            </div>
+            <div class="services-item">
+                <img class="services-img" src="assets/images/services.jpg" alt="services">
+                <h1 class="services-header">consultancy</h1>
+                <p class="services-description">i build wesjs;as faa;dja dads;jfkdakj;kjadfsk</p>
+            </div>
+            </div>
+         </section>
     </main>
-    <footer>
-        <!-- footer navigation -->
-        <div class="footer-nav">
-            <a href="index.html" class="footer-link">home</a>
-            <a href="about.html" class="footer-link">about</a>
-            <a href="services.html" class="footer-link">services</a>
-            <a href="contact.html" class="footer-link">contact</a>
+    <footer class="footer-container">
+        <div class="footer-form">
+            <form action="">
+                <h3>subscribe</h3>
+                <p>subscribe for updates on our services</p>
+                <br>
+                <label for="">Name:</label>
+                <input type="text">
+                <br>
+                <label for="">E-mail: </label>
+                <input type="text">
+                <br>
+                <label for="">comment: </label>
+                <textarea name="" id="">Write your comment...</textarea>
+                <br>
+                <input type="button" value="submit">
+            </form>
         </div>
+        <!-- footer navigation -->
+            <ul class="footer-nav">
+                <li class="footer-item">
+                    <a href="index.html" class="footer-link">home</a>
+                </li>
+                <li class="footer-item">
+                    <a href="pages/about/about.html" class="footer-link">about</a>
+                </li>
+                <li class="footer-item">
+                    <a href="pages/services/services.html" class="footer-link">services</a>
+                </li>
+                <li class="footer-item">
+                    <a href="pages/contact/contact.html" class="footer-link">contact</a>
+                </li>
+            </ul>
         <!-- footer-icons -->
          <!-- social links -->
-          <div class="social-links">
-            <a href="">instagram</a>
-            <a href="">facebook</a>
-            <a href="">x</a>
-            <a href="">tik-tok</a>
-            <a href="">youtube</a>
+            <ul class="social-links">
+                <li class="footer-item">
+                    <a class="footer-link" href="">instagram</a>
+                </li>
+                <li class="footer-item">
+                    <a class="footer-link" href="">facebook</a>
+                </li>
+                <li class="footer-item">
+                    <a class="footer-link" href="">x</a>
+                </li>
+                <li class="footer-item">
+                    <a class="footer-link" href="">tik-tok</a>
+                </li>
+                <li class="footer-item">
+                    <a class="footer-link" href="">youtube</a>
+                </li>
+            </ul>
           </div>
-          
-    </footer>
+        </footer>
+        <hr class="divider">
+        <div class="footer-content">
+            &copy; COLZY<sup class="footer-mark">tm</sup> 2026
+        </div>
 </body>
 </html>
