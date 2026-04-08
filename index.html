@@ -10,23 +10,23 @@
 <body>
     <!-- page header -->
      <header class="header">
-    <!-- logo, navigation bars, login, hero section, about, contact,services, newsletter, footer, social links  -->
-     <!-- navigation  bar -->
+     <!-- NAVIGATION BAR WITH LOGO, NAV MENU AND LINK TO MY PORTFOLIO -->
       <nav class="nav">
         <!-- logo -->
-        <a class="logo" href="index.html"><strong>logo</strong></a>
+        <a class="logo" href="index.html"><strong>colzy</strong></a>
         <!-- navigation menu -->
          <ul class="nav-menu">
             <li class="nav-item"><a class="nav-link" href="index.html">home</a></li>
-            <li class="nav-item"><a class="nav-link" href="pages/about/about.html">about us</a></li>
+            <li class="nav-item"><a class="nav-link" href="pages/about/about.html">about</a></li>
             <li class="nav-item"><a class="nav-link" href="pages/services/services.html">services</a></li>
             <li class="nav-item"><a class="nav-link" href="pages/contact/contact.html">contact</a></li>
          </ul>
-         <!-- login -->
-          <a href="pages/login/login.html" class="nav-button">login</a>
+         <!-- PORTFOLIO LINK -->
+          <a href="#" class="nav-button">portfolio</a>
       </nav>
     </header>
     <main>
+        <!-- HERO SECTION WITH A CALL TO ACTION BUTTON -->
         <section>
             <div class="hero-section">
                 <div class="content">
@@ -34,60 +34,67 @@
                     <p class="description">
                     Empowering innovation through cutting-edge technology, smart solutions, and seamless digital experiences to 
                     drive the future of technology with innovation, creativity and precision.
-                    </p>
+                </p>
+                <a href="#" class="hero-btn">book now</a>
                 </div>
-                <img class="hero-img" src="assets/images/webdesign.jpg" alt="hero-image">    
             </div>
         </section>
+            
+        <!-- ABOUT -->
         <section>
-            <div class="fashion">
-                <img class="fashion-img" src="assets/images/download.jpg" alt="about">
+            <div class="about">
+                <img class="about-img" src="assets/images/download.jpg" alt="about">
                 <div class="content">
-                    <h1 class="fashion-header">about the author</h1>
-                    <p class="fashion-description">give a description about your services here. make it atleast two paragraphs</p>
-                    <a class="fashion-link" href="#">learn more</a>
+                    <h1 class="about-header">about the author</h1>
+                    <p class="about-description">I'm a passionate web designer, developer, and database specialist dedicated to helping
+                        businesses grow through technology. With a strong focus on performance, usability, and security, I build digital 
+                        solutions that don't just look good, but work efficiently and effectively to enhance the user experience. 
+                    </p>
+                    <p class="about-description">
+                        From designing modern, responsive websites to developing structured and efficient database systems, I bring ideas to
+                        life with precision and purpose. My goal is to help individuals and businesses create a strong digital presence and manage
+                        their data smarter.
+                    </p>
+                    <a class="about-link" href="pages/about/about.html">learn more</a>
                 </div>
             </div>
         </section>
 
         <!-- services -->
-         <section class="services-section">
+        <section class="services-section">
             <h1 class="serv-header">services</h1>
             <div class="services-container">
                 <div class="services-item">
-                <img class="services-img" src="assets/images/services.jpg" alt="services">
-                <h1 class="services-header">wev design & development</h1>
-                <p class="services-description">i build wesjs;as faa;dja dads;jfkdakj;kjadfsk</p>
+                <img class="services-img" src="assets/images/webdevt.jpg" alt="services">
+                <h1 class="services-header">web design & development</h1>
+                <p class="services-description">Design and build fast, modern and conversion-driven websites that turn visitors into paying customers.</p>
             </div>
             <div class="services-item">
-                <img class="services-img" src="assets/images/services.jpg" alt="services">
-                <h1 class="services-header">Fashion</h1>
-                <p class="services-description">i build wesjs;as faa;dja dads;jfkdakj;kjadfsk</p>
+                <img class="services-img" src="assets/images/seo.jpg" alt="services">
+                <h1 class="services-header">Hosting/SEO Optimisation</h1>
+                <p class="services-description">Establish a powerful online presence from speed through responsive development and user-focused experience.</p>
             </div>
             <div class="services-item">
-                <img class="services-img" src="assets/images/services.jpg" alt="services">
-                <h1 class="services-header">consultancy</h1>
-                <p class="services-description">i build wesjs;as faa;dja dads;jfkdakj;kjadfsk</p>
+                <img class="services-img" src="assets/images/dbms.jpg" alt="services">
+                <h1 class="services-header">Database Management</h1>
+                <p class="services-description">Your data is your power. Design & manage secure, efficient databases with reliable solutions that improves performance. </p>
             </div>
             </div>
          </section>
     </main>
+    <!-- FOOTER PAGE -->
     <footer class="footer-container">
         <div class="footer-form">
             <form action="">
-                <h3>subscribe</h3>
-                <p>subscribe for updates on our services</p>
+                <h3>CONTACT</h3>
                 <br>
-                <label for="">Name:</label>
-                <input type="text">
+                <input type="text" placeholder="Full name">
                 <br>
-                <label for="">E-mail: </label>
-                <input type="text">
+                <input type="text" placeholder="E-mail">
                 <br>
-                <label for="">comment: </label>
-                <textarea name="" id="">Write your comment...</textarea>
+                <textarea name="comment" id="comment" placeholder="Write your comment..."></textarea>
                 <br>
-                <input type="button" value="submit">
+                <button class="button" type="submit">submit</button>
             </form>
         </div>
         <!-- footer navigation -->
@@ -109,16 +116,16 @@
          <!-- social links -->
             <ul class="social-links">
                 <li class="footer-item">
-                    <a class="footer-link" href="">instagram</a>
+                    <a class="footer-link" href="https://www.instagram.com/colzyltd/">instagram</a>
                 </li>
                 <li class="footer-item">
-                    <a class="footer-link" href="">facebook</a>
+                    <a class="footer-link" href="https://www.facebook.com/share/1GoiSJbEB9/">facebook</a>
                 </li>
                 <li class="footer-item">
-                    <a class="footer-link" href="">x</a>
+                    <a class="footer-link" href="https://www.x.com/colzy_ltd">X</a>
                 </li>
                 <li class="footer-item">
-                    <a class="footer-link" href="">tik-tok</a>
+                    <a class="footer-link" href="https://www.tiktok.com/@colzy_ok">tik-tok</a>
                 </li>
                 <li class="footer-item">
                     <a class="footer-link" href="">youtube</a>

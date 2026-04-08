@@ -1,0 +1,23 @@
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-header {
+    font-size: 50px;
+    text-transform: capitalize;
+    padding: 10px;
+}
+.about-description {
+    width: 100%;
+    font-size: 15px;
+    padding: 10px;
+    margin: 14px 0;
+}
+.about-img {
+    float: right;
+    width: 30%;
+    height: 400px;
+    margin: 14px;
+    border-radius: 25px;
+}
